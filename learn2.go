@@ -23,7 +23,7 @@ type Company struct {
 // main関数はパラメータ、戻り値ともに持たない
 func main() {
 
-	// plus関数を呼び出す
+	// multiplication関数を呼び出す
 	answer := multiplication(10, 2)
 
 	// 関数から返された戻り値を出力
