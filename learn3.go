@@ -1,9 +1,9 @@
 package main
 
-import "fmt"
 import (
-	"os"
+	"fmt"
 	"io/ioutil"
+	"os"
 )
 
 func main() {
@@ -33,7 +33,6 @@ func main() {
 	// ファイルの名前
 	fmt.Println(file.Name())
 	// ファイルのクローズ
-	file.Close()
 
 	// ioutilを使った方
 	data, err := ioutil.ReadFile("test.text")
